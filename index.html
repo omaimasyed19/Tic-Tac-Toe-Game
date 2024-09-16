@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="start-page">
+        <h1>Welcome to Tic Tac Toe</h1>
+        <div class="img">
+            <img src="game-ppl.png" height="400px" width="400px">
+        </div>
+        <button id="start-game-btn">Start Game</button>
+        <p class="creator">Created by Umyma Syed</p>
+        <!-- Game Page (Initially Hidden) -->
+    </div>
+   
+    <div class="game-page hide">
+        <div class="msg-container hide">
+            <p id="msg">Winner</p>
+            <button id="new-btn">New Game</button>
+        </div>
+
+        <main>
+            <h1>Tic Tac Toe 🎭</h1>
+            <div class="button-container">
+                <button id="pvp-btn">Play vs People🙍‍♂️🙍‍♀️</button>
+                <button id="pvc-btn">Play vs Computer💻</button>
+            </div>
+            <div class="container">
+                <div class="game">
+                    <button class="box" style="border-top: none; border-left: none;"></button>
+                    <button class="box" style="border-top: none;"></button>
+                    <button class="box" style="border-top: none; border-right:none;"></button>
+                    <button class="box" style="border-left:none;"></button>
+                    <button class="box"></button>
+                    <button class="box" style="border-right:none;"></button>
+                    <button class="box" style="border-bottom: none; border-left:none;"></button>
+                    <button class="box" style="border-bottom:none;"></button>
+                    <button class="box" style="border-bottom: none; border-right:none;"></button>
+                </div>
+            </div>
+            <button id="reset-btn">Reset Game</button>
+        </main>
+        <p class="creator">Created by Umyma Syed</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
