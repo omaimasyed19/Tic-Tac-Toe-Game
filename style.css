@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+PL:wght@100..400&family=Roboto+Slab:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 *{
     margin:0;
@@ -8,7 +9,7 @@ body{
     text-align: center;
 }
 .container{
-    height:70vh;
+    height:40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,12 +124,16 @@ h1{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+.button-container{
+    display :flex justify-content :space-evenly ;
+}
   #pvp-btn, #pvc-btn {
     padding: 10px 10px;
-    margin: 15px;
-    font-size: 1rem;
+    margin-right:15px;    
+    margin-left:15px;
+    margin-top:10px;
     cursor: pointer;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 2.5vw, 2rem);   
     background-color: transparent;
     color:rgb(0, 0, 0);
     border-radius:1rem;
@@ -137,6 +142,12 @@ h1{
     color:#A91D3A;
 }  
 #pvp-btn:hover{
+    -webkit-box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
+    -moz-box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
+    box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
+        border: 1px solid #A91D3A;
+  }
+  #pvp-btn:visited{
     -webkit-box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
     -moz-box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
     box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
@@ -193,6 +204,7 @@ box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
     font-weight: 600;
     text-decoration: underline;
 }
+
 
 
 
