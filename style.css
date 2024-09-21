@@ -208,3 +208,16 @@ box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
 .hide{
     display: none; 
 }
+
+@media only screen and (max-width: 600px) {
+  #reset-btn,
+  #pvp-btn,
+  #pvc-btn,
+  #new-btn,
+  #start-game-btn {
+      -webkit-box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
+      -moz-box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
+      box-shadow: 10px 10px 156px 0px rgba(237,43,124,1);
+      border: 1px solid #A91D3A;
+  }
+}
