@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let msgContainer = document.querySelector(".msg-container");
     let msg = document.querySelector("#msg");
     let main = document.querySelector("main");
-
     let turnO = true;
     let vsComputer = false;
     let gameOver = false;
