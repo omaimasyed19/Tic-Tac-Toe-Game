@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let turnO = true;
     let vsComputer = false;
     let gameOver = false;
-    
     let winPatterns = [
         [0, 1, 2], [0, 3, 6], [0, 4, 8],
         [1, 4, 7], [2, 5, 8], [2, 4, 6],
