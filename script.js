@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         [1, 4, 7], [2, 5, 8], [2, 4, 6],
         [3, 4, 5], [6, 7, 8]
     ];
-
+    
     startGameBtn.addEventListener("click", () => {
         startPage.style.display = "none"; 
         entryPage.classList.remove("hide"); 
